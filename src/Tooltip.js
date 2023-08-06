@@ -11,7 +11,7 @@ class Tooltip extends React.Component{
     render(){
         return (
             <div className={`${this.classn()}`}>
-                thanks for hovering "{this.props.position}" position!
+                you are hovering "{this.props.position}" position!
             </div>
         )
     }
